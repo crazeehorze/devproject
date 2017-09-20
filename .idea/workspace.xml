@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87fa2db2-6814-4a88-b495-938d509bf7fd" name="Default" comment="Learn java 8 classes added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/Feature.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/FeatureRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindGreater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindPrimes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/devproject/learnjava8/lambdas/FindPrimesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/github/devproject/SampleClass.class" afterPath="$PROJECT_DIR$/target/classes/com/github/devproject/SampleClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/github/devproject/tests/SampleClassTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/devproject/tests/SampleClassTest.class" />
+    <list default="true" id="87fa2db2-6814-4a88-b495-938d509bf7fd" name="Default" comment="added FindGreater">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindUtility.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devproject.iml" afterPath="$PROJECT_DIR$/devproject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/FeatureRunner.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/FeatureRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindGreater.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindGreater.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,17 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/FeatureRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindPrimes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindPrimes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,12 +71,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindGreater.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FindPrimes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindPrimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindGreater.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindGreater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="814">
+              <caret line="33" column="61" lean-forward="false" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindUtility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,26 +153,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hasConditions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/mapper/hasConditions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -192,11 +188,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/mapper/hasConditions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/mapper/hasTemplateInMapping.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/mapper/MappingEngine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/FeatureRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/devproject/learnjava8/lambdas/FindPrimesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindGreater.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/Feature.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindPrimes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/FeatureRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindGreater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindUtility.java" />
       </list>
     </option>
   </component>
@@ -372,7 +369,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindPrimesTest.test37IsPrime">
+  <component name="RunManager" selected="Application.FeatureRunner">
+    <configuration name="FeatureRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.github.devproject.learnjava8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.github.devproject.learnjava8.FeatureRunner" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="devproject" />
+      <envs />
+    </configuration>
     <configuration name="FindPrimesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -461,31 +477,6 @@
       <option name="PACKAGE_NAME" value="com.github.devproject.learnjava8.lambdas" />
       <option name="MAIN_CLASS_NAME" value="com.github.devproject.learnjava8.lambdas.FindPrimesTest" />
       <option name="METHOD_NAME" value="test39IsPrime" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FindPrimesTest.testMinus1IsNotPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.github.devproject.learnjava8.lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="devproject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.github.devproject.learnjava8.lambdas" />
-      <option name="MAIN_CLASS_NAME" value="com.github.devproject.learnjava8.lambdas.FindPrimesTest" />
-      <option name="METHOD_NAME" value="testMinus1IsNotPrime" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -698,18 +689,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FindPrimesTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.testMinus1IsNotPrime" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test2IsPrime" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test39IsPrime" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test37IsPrime" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test2IsPrime" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test39IsPrime" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test37IsPrime" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FeatureRunner" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test37IsPrime" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test39IsPrime" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FindPrimesTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test2IsPrime" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.testMinus1IsNotPrime" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FeatureRunner" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test37IsPrime" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test39IsPrime" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FindPrimesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FindPrimesTest.test2IsPrime" />
       </list>
     </recent_temporary>
   </component>
@@ -736,7 +727,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493062593128</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Learn java 8 classes added">
+      <created>1505938939517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505938939517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -815,7 +813,8 @@
     <MESSAGE value="renamed files" />
     <MESSAGE value="mapper first cut added" />
     <MESSAGE value="Learn java 8 classes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn java 8 classes added" />
+    <MESSAGE value="added FindGreater" />
+    <option name="LAST_COMMIT_MESSAGE" value="added FindGreater" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -858,7 +857,7 @@
         <state relative-caret-position="407">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#273#274#0" expanded="false" />
             <element signature="e#306#307#0" expanded="false" />
           </folding>
@@ -870,7 +869,7 @@
         <state relative-caret-position="259">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,7 +879,7 @@
         <state relative-caret-position="259">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -902,7 +901,7 @@
         <state relative-caret-position="555">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -939,7 +938,7 @@
         <state relative-caret-position="407">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#273#274#0" expanded="false" />
             <element signature="e#306#307#0" expanded="false" />
           </folding>
@@ -951,7 +950,7 @@
         <state relative-caret-position="259">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -961,7 +960,7 @@
         <state relative-caret-position="259">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -971,7 +970,7 @@
         <state relative-caret-position="555">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1010,14 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/FeatureRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/devproject/tests/SampleClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1048,14 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindGreater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/Feature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -1064,13 +1047,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindPrimes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/FeatureRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="296">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/devproject/learnjava8/lambdas/FindGreater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="33" column="61" lean-forward="false" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
