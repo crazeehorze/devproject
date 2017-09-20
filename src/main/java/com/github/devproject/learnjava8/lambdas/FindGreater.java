@@ -9,9 +9,7 @@ import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 import java.util.stream.IntStream;
 
-import static com.github.devproject.learnjava8.lambdas.FindUtility.doubled;
-import static com.github.devproject.learnjava8.lambdas.FindUtility.isEven;
-import static com.github.devproject.learnjava8.lambdas.FindUtility.isGreaterThan3;
+import static com.github.devproject.learnjava8.lambdas.FindUtility.*;
 
 public class FindGreater implements Feature {
     @Override
@@ -41,7 +39,14 @@ public class FindGreater implements Feature {
                         .findFirst()
         );
 
+        System.out.println(
 
+                numbers.stream()
+                        .filter(isGreaterThan.apply(3))
+                        .filter(isEven)
+                        .map(doubled)
+                        .findFirst()
+        );
 
     }
 }
